@@ -14,10 +14,10 @@ Prefix can be changed in config
     <img src="titlesend.png" alt="Titlesend" /> 
 </h1>
 
------ config
+
 prefix: '&4&l[ALERT]'
 stay: 3
------ end of config
+
 
 
 
