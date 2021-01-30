@@ -1,5 +1,5 @@
 # TitleSend
-### Plugin version 1.12.20
+### Plugin version 1.12.31
 
 /alert - alert to everyone in the server
 Prefix can be changed in config
