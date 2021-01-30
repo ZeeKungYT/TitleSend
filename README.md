@@ -15,8 +15,7 @@ Prefix can be changed in config
 </h1>
 
 
-prefix: '&4&l[ALERT]'
-stay: 3
+
 
 
 
