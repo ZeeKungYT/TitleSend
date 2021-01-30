@@ -1,0 +1,18 @@
+name: Titlesend
+version: 1.12.20
+main: vb.$titlesend.PluginMain
+author: ZeeKungYT
+api-version: 1.13
+commands:
+  titlesend:
+    description: Send Title to everyone in the server.
+    permission: titlesend.send
+    permission-message: &4You don't have permission to do this!
+  alert:
+    description: Send alert [broadcast] to everyone in the server
+    permission: titlesend.alert
+    permission-message: &4You don't have permission to do that!
+  titlereload:
+    description: Reload config
+    permission: titlesend.reload
+    permission-message: &4You don't have permission to do that!
