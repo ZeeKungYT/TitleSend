@@ -1,5 +1,5 @@
 name: Titlesend
-version: 1.12.20
+version: 1.12.31
 main: vb.$titlesend.PluginMain
 author: ZeeKungYT
 api-version: 1.13

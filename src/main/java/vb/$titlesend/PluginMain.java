@@ -26,7 +26,7 @@ public class PluginMain extends JavaPlugin implements Listener {
 		try {
 			Bukkit.getConsoleSender().sendMessage(PluginMain
 					.color(PluginMain.color("&3&lTitlesend has been &2&lEnabled! &4[Made by ZeeKungYT/Sirawat]")));
-			Bukkit.getConsoleSender().sendMessage(PluginMain.color(PluginMain.color("&2&lPlugin version: 1.12")));
+			Bukkit.getConsoleSender().sendMessage(PluginMain.color(PluginMain.color("&2&lPlugin version: 1.12.31")));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -73,7 +73,9 @@ public class PluginMain extends JavaPlugin implements Listener {
 						((org.bukkit.entity.Player) loopValue0).sendTitle(
 								PluginMain.color(PluginMain.color(
 										String.join(" ", (List<String>) (Object) PluginMain.createList(commandArgs)))),
-								PluginMain.color(((java.lang.String) null)), ((int) 5d),
+								PluginMain.color(PluginMain
+										.color(String.valueOf(PluginMain.getInstance().getConfig().get("subtitle")))),
+								((int) 5d),
 								((int) (((Number) PluginMain.getInstance().getConfig().get("stay")).doubleValue()
 										* 20d)),
 								((int) 5d));

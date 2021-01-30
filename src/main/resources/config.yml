@@ -2,3 +2,5 @@
 prefix: '&4&l[ALERT]'
 # Titlesend stay for... seconds DEFAULT: 3
 stay: 3
+# Subtitle for /titlesend set '' to disable
+subtitle: '&3&lYour Server Name'
